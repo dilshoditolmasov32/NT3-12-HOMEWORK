@@ -42,19 +42,15 @@ button {
 .backtop {
   display: flex;
   position: fixed;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   bottom: 20px;
   right: 40px;
   background-color: rgb(23, 230, 71);
   text-decoration: none;
   justify-content: center;
   align-items: center;
-  border-radius: 8px;
-}
-.backtop img {
-  font-size: 50px;
-  color: #fff;
+  border-radius: 4px;
 }
 
 #loading {
@@ -137,6 +133,12 @@ button {
 // header-start
 
 header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+  background: #fff;
   .nav {
     display: flex;
     justify-content: space-between;
@@ -636,10 +638,7 @@ header {
       display: flex;
       gap: 48px;
       margin-top: 64px;
-      .carousel-image {
-        background: url(../images/Image\ Placeholder.png);
-        padding-top: 225px;
-        padding-right: 250px;
+      .carousel-image img {
         background-repeat: no-repeat;
       }
       .owl-carousel-text {

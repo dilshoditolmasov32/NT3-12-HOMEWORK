@@ -3,14 +3,506 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../scss/_details.scss" />
-    <title>Dilshodbek</title>
+    <title>Detail Course</title>
+    <link rel="stylesheet" href="./../page/detail.css" />
   </head>
   <body>
-    <h1>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae
-      tempora cupiditate alias modi in ex? Facere, nobis tempore! Nihil,
-      exercitationem?
-    </h1>
+    <header class="header_hero">
+      <div class="container">
+        <nav class="nav">
+          <div class="logo_1">
+            <a href="./../index.html">
+              <img src="./../images/Logo_2.svg" alt="logo" />
+            </a>
+          </div>
+          <div class="input search_">
+            <input type="text" id="search" placeholder="Search bar" required />
+            <img src="./../images/Search.svg" alt="icon_search" />
+          </div>
+          <div class="link_item" id="navbar-responsive">
+            <div class="item_link">
+              <div class="dropdown">
+                <a class="dropbtn" href="">Category</a>
+                <img src="./../images/arrow_drop_down.svg" alt="icon" />
+
+                <div class="dropdown-content">
+                  <a href="#">Link 1</a>
+                  <a href="#">Link 2</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div>
+
+              <a href="">Become an Mentor</a>
+            </div>
+            <div class="btn_link">
+              <img src="./../images/Image Placeholder.svg" alt="icon" />
+              <a href="#">Romadhon@gmail.com</a>
+            </div>
+          </div>
+          <div id="dark-light"></div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="blog_hero">
+        <div class="container">
+          <div class="blog_content">
+            <div class="blog_home">
+              <a href="#">Home</a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+              >
+                <path
+                  d="M4.86206 3.13798L9.72406 7.99998L4.86206 12.862L5.80473 13.8046L11.6094 7.99998L5.80473 2.19531L4.86206 3.13798Z"
+                  fill="white"
+                />
+              </svg>
+              <a href="">Programming Courses</a>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+              >
+                <path
+                  d="M4.86206 3.13798L9.72406 7.99998L4.86206 12.862L5.80473 13.8046L11.6094 7.99998L5.80473 2.19531L4.86206 3.13798Z"
+                  fill="white"
+                />
+              </svg>
+              <a href="">How to become an Expert Web Developer</a>
+            </div>
+            <div class="blog_head">
+              <h1>How to become an Expert Web Developer</h1>
+              <div class="blog_student">
+                <img src="./../images/stars.svg" alt="star" />
+                <h1>4,7/5</h1>
+                <span>(1023 Reviews)</span>
+                <span>20327 Student</span>
+              </div>
+              <div class="blog_hhh">
+                <img src="./../images/Image Placeholder.svg" alt="xxx" />
+                <h3>Pak Arif Satria Kecek ulalala</h3>
+              </div>
+              <div class="blog_button">
+                <div class="plus">
+                  <a href="">Add To Wishlist</a>
+
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M13.5 10.5H21V13.5H13.5V21H10.5V13.5H3V10.5H10.5V3H13.5V10.5Z"
+                      fill="white"
+                    />
+                  </svg>
+                </div>
+                <div class="minus">
+                  <a href="">Share</a>
+
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M18 6C17.4477 6 17 5.55228 17 5C17 4.44772 17.4477 4 18 4C18.5523 4 19 4.44772 19 5C19 5.55228 18.5523 6 18 6ZM6 13C5.44772 13 5 12.5523 5 12C5 11.4477 5.44772 11 6 11C6.55228 11 7 11.4477 7 12C7 12.5523 6.55228 13 6 13ZM18 20.02C17.4477 20.02 17 19.5723 17 19.02C17 18.4677 17.4477 18.02 18 18.02C18.5523 18.02 19 18.4677 19 19.02C19 19.5723 18.5523 20.02 18 20.02Z"
+                      fill="white"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M18 16.08C17.24 16.08 16.56 16.38 16.04 16.85L8.91 12.7C8.96 12.47 9 12.24 9 12C9 11.76 8.96 11.53 8.91 11.3L15.96 7.19C16.5 7.69 17.21 8 18 8C19.66 8 21 6.66 21 5C21 3.34 19.66 2 18 2C16.34 2 15 3.34 15 5C15 5.24 15.04 5.47 15.09 5.7L8.04 9.81C7.5 9.31 6.79 9 6 9C4.34 9 3 10.34 3 12C3 13.66 4.34 15 6 15C6.79 15 7.5 14.69 8.04 14.19L15.16 18.35C15.11 18.56 15.08 18.78 15.08 19C15.08 20.61 16.39 21.92 18 21.92C19.61 21.92 20.92 20.61 20.92 19C20.92 17.39 19.61 16.08 18 16.08ZM18 4C18.55 4 19 4.45 19 5C19 5.55 18.55 6 18 6C17.45 6 17 5.55 17 5C17 4.45 17.45 4 18 4ZM6 13C5.45 13 5 12.55 5 12C5 11.45 5.45 11 6 11C6.55 11 7 11.45 7 12C7 12.55 6.55 13 6 13ZM18 20.02C17.45 20.02 17 19.57 17 19.02C17 18.47 17.45 18.02 18 18.02C18.55 18.02 19 18.47 19 19.02C19 19.57 18.55 20.02 18 20.02Z"
+                      fill="#F72585"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="detail_hero">
+        <div class="container">
+          <div class="detail_content">
+            <div class="detail_texts">
+              <div class="detail_text">
+                <h1>What you’ll learn from this course</h1>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Feugiat eu in orci, nunc amet libero. Nam scelerisque
+                  vestibulum bibendum a turpis. Ante feugiat lectus massa, odio
+                  amet. Auctor sit mattis non id proin elit placerat. Lectus
+                  morbi amet et aliquam magna mauris. Proin pulvinar fringilla
+                  nunc, tristique urna, massa, tincidunt.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Feugiat eu in orci, nunc amet libero. Nam scelerisque
+                  vestibulum bibendum a turpis. Ante feugiat lectus massa, odio
+                  amet. Auctor sit mattis non id proin elit placerat. Lectus
+                  morbi amet et aliquam magna mauris. Proin pulvinar fringilla
+                  nunc, tristique urna, massa, tincidunt.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Feugiat eu in orci, nunc amet libero. Nam scelerisque
+                  vestibulum bibendum a turpis. Ante feugiat lectus massa, odio
+                  amet. Auctor sit mattis non id proin elit placerat
+                </p>
+              </div>
+              <div class="detail_text_2">
+                <h1>Objectives Features</h1>
+                <div class="detail_boxs">
+                  <div class="boxs_left">
+                    <div class="box">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M9.70711 14.2929L19 5L20.4142 6.41421L9.70711 17.1213L4 11.4142L5.41421 10L9.70711 14.2929Z"
+                          fill="#F72585"
+                        />
+                      </svg>
+                      <p>
+                        Build fully websites and web apps for your startup or
+                        business.
+                      </p>
+                    </div>
+                    <div class="box">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M9.70711 14.2929L19 5L20.4142 6.41421L9.70711 17.1213L4 11.4142L5.41421 10L9.70711 14.2929Z"
+                          fill="#F72585"
+                        />
+                      </svg>
+                      <p>
+                        Build fully websites and web apps for your startup or
+                        business.
+                      </p>
+                    </div>
+                    <div class="box">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M9.70711 14.2929L19 5L20.4142 6.41421L9.70711 17.1213L4 11.4142L5.41421 10L9.70711 14.2929Z"
+                          fill="#F72585"
+                        />
+                      </svg>
+                      <p>
+                        Build fully websites and web apps for your startup or
+                        business.
+                      </p>
+                    </div>
+                    <div class="box">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M9.70711 14.2929L19 5L20.4142 6.41421L9.70711 17.1213L4 11.4142L5.41421 10L9.70711 14.2929Z"
+                          fill="#F72585"
+                        />
+                      </svg>
+                      <p>
+                        Build fully websites and web apps for your startup or
+                        business.
+                      </p>
+                    </div>
+                    <div class="box">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M9.70711 14.2929L19 5L20.4142 6.41421L9.70711 17.1213L4 11.4142L5.41421 10L9.70711 14.2929Z"
+                          fill="#F72585"
+                        />
+                      </svg>
+                      <p>
+                        Build fully websites and web apps for your startup or
+                        business.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="boxs_left">
+                    <div class="box">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M9.70711 14.2929L19 5L20.4142 6.41421L9.70711 17.1213L4 11.4142L5.41421 10L9.70711 14.2929Z"
+                          fill="#F72585"
+                        />
+                      </svg>
+                      <p>
+                        Build fully websites and web apps for your startup or
+                        business.
+                      </p>
+                    </div>
+                    <div class="box">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M9.70711 14.2929L19 5L20.4142 6.41421L9.70711 17.1213L4 11.4142L5.41421 10L9.70711 14.2929Z"
+                          fill="#F72585"
+                        />
+                      </svg>
+                      <p>
+                        Build fully websites and web apps for your startup or
+                        business.
+                      </p>
+                    </div>
+                    <div class="box">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M9.70711 14.2929L19 5L20.4142 6.41421L9.70711 17.1213L4 11.4142L5.41421 10L9.70711 14.2929Z"
+                          fill="#F72585"
+                        />
+                      </svg>
+                      <p>
+                        Build fully websites and web apps for your startup or
+                        business.
+                      </p>
+                    </div>
+                    <div class="box">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M9.70711 14.2929L19 5L20.4142 6.41421L9.70711 17.1213L4 11.4142L5.41421 10L9.70711 14.2929Z"
+                          fill="#F72585"
+                        />
+                      </svg>
+                      <p>
+                        Build fully websites and web apps for your startup or
+                        business.
+                      </p>
+                    </div>
+                    <div class="box">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M9.70711 14.2929L19 5L20.4142 6.41421L9.70711 17.1213L4 11.4142L5.41421 10L9.70711 14.2929Z"
+                          fill="#F72585"
+                        />
+                      </svg>
+                      <p>
+                        Build fully websites and web apps for your startup or
+                        business.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              
+            </div>
+            <div class="detail_text_2">
+                <h1>Requirement </h1>
+                <div class="detail_boxs">
+                  <div class="boxs_left">
+                    <div class="box">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M9.70711 14.2929L19 5L20.4142 6.41421L9.70711 17.1213L4 11.4142L5.41421 10L9.70711 14.2929Z"
+                          fill="#F72585"
+                        />
+                      </svg>
+                      <span>
+                        No programming experience needed - I'll teach you everything you need to know
+                      </span>
+                    </div>
+                    <div class="box">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M9.70711 14.2929L19 5L20.4142 6.41421L9.70711 17.1213L4 11.4142L5.41421 10L9.70711 14.2929Z"
+                          fill="#F72585"
+                        />
+                      </svg>
+                      <span>
+                        A Mac or PC computer with access to the internet
+                      </span>
+                    </div>
+                    <div class="box">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M9.70711 14.2929L19 5L20.4142 6.41421L9.70711 17.1213L4 11.4142L5.41421 10L9.70711 14.2929Z"
+                          fill="#F72585"
+                        />
+                      </svg>
+                      <span>
+                        No previous coding experience is needed
+                      </span>
+                    </div>
+                    <div class="box">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M9.70711 14.2929L19 5L20.4142 6.41421L9.70711 17.1213L4 11.4142L5.41421 10L9.70711 14.2929Z"
+                          fill="#F72585"
+                        />
+                      </svg>
+                      <span>
+                        All tools and software used in this course will be free
+                      </span>
+                    </div>
+                    <div class="box">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                      >
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M9.70711 14.2929L19 5L20.4142 6.41421L9.70711 17.1213L4 11.4142L5.41421 10L9.70711 14.2929Z"
+                          fill="#F72585"
+                        />
+                      </svg>
+                      <span>
+                        Any operating system: Mac, PC, Linux
+                      </span>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+          </div>
+        </div>
+      </section>
+      <section class="module_hero">
+        <div class="container">
+            <div class="module_head">
+                <h1>Module Courses</h1>
+                <p>24 Modules - 124 Lectures - 24 h 12m</p>
+            </div>
+            <div class="module_content">
+                <div class="module_out">
+                    <h1>Introducing to Web Development</h1>
+                    <img src="./../images/svg.svg" alt="up">
+
+                </div>
+               
+                <div class="module_texts">
+                    <div class="mudule_in">
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
