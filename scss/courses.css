@@ -46,12 +46,26 @@ a {
   text-decoration: none;
 }
 
+.backtop {
+  display: flex;
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  bottom: 20px;
+  right: 40px;
+  background-color: rgb(23, 230, 71);
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+
 body header {
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
-  z-index: 3;
+  z-index: 2;
   background-color: #fff;
 }
 body header .nav {
@@ -845,6 +859,12 @@ body footer .footer_content .footer_text_botton .text_botton h1 {
   }
   body footer .footer_content .footer_texts .footer_text p {
     width: 260px;
+  }
+  body footer .footer_content a:hover {
+    color: #f72585;
+  }
+  body footer .footer_content h1:hover {
+    color: #f72585;
   }
   body footer .footer_content .footer_text_botton {
     display: flex;
